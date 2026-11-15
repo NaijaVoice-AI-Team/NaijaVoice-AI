@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaijaVoice AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">NaijaVoice<span> AI</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <button class="nav-button">Get Started</button>
+        </nav>
+    </header>
+
+    <!-- Homepage -->
+    <main>
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="tagline">YOUR VOICE, OUR INTELLIGENCE</p>
+
+                <h1>
+                    Turn Your Voice Into
+                    <span>Meaningful Text.</span>
+                </h1>
+
+                <p class="description">
+                    Record or upload your voice notes in Nigerian English
+                    or Pidgin. Let NaijaVoice AI transcribe, summarize
+                    and organize your thoughts.
+                </p>
+
+                <div class="hero-buttons">
+                    <button id="recordBtn">Start Recording</button>
+                    <button id="uploadBtn">Upload Audio</button>
+                </div>
+
+                <input type="file" id="audioInput" accept="audio/*" hidden>
+            </div>
+
+            <div class="hero-card">
+                <div class="microphone">🎙️</div>
+                <h3>Your Voice Matters</h3>
+                <p>Speak naturally. We'll handle the rest.</p>
+                <div class="waveform">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p class="card-label">AI POWERED SPEECH RECOGNITION</p>
+            </div>
+
+        </section>
+
+
+<!-- FEATURES SECTION -->
+<section class="features-section">
+
+    <div class="section-heading">
+        <span class="section-tag">OUR CAPABILITIES</span>
+        <h2>What NaijaVoice AI Can Do</h2>
+        <p>One voice note. Multiple possibilities.</p>
+    </div>
+
+    <div class="features-grid">
+
+        <article class="feature-card">
+            <div class="feature-icon purple">🎙️</div>
+            <h3>Speech Transcription</h3>
+            <p>
+                Convert Nigerian English and Pidgin
+                voice recordings into readable text.
+            </p>
+            <span class="feature-number">01</span>
+        </article>
+
+        <article class="feature-card">
+            <div class="feature-icon green">📝</div>
+            <h3>AI Summarization</h3>
+            <p>
+                Turn long voice recordings into
+                short, clear and meaningful summaries.
+            </p>
+            <span class="feature-number">02</span>
+        </article>
+
+        <article class="feature-card">
+            <div class="feature-icon orange">✓</div>
+            <h3>Task Extraction</h3>
+            <p>
+                Identify important instructions,
+                reminders and action points automatically.
+            </p>
+            <span class="feature-number">03</span>
+        </article>
+
+    </div>
+</section>
+
+
+<!-- NIGERIAN VOICES SECTION -->
+<section class="naija-section">
+
+    <div class="naija-content">
+        <span class="section-tag">MADE FOR OUR VOICES</span>
+
+        <h2>Built for Nigerian Voices.</h2>
+
+        <p>
+            Your voice deserves to be understood.
+            NaijaVoice AI aims to make speech technology
+            more useful for people who communicate in
+            Nigerian English and Pidgin.
+        </p>
+
+        <div class="language-tags">
+            <span>🇳🇬 Nigerian English</span>
+            <span>💬 Nigerian Pidgin</span>
+            <span>🎧 Voice Notes</span>
+        </div>
+    </div>
+
+    <div class="naija-decoration">
+        <div class="sound-circle">🎙️</div>
+        <span>YOUR VOICE MATTERS</span>
+    </div>
+
+</section>
+<!-- Transcription Results -->
+<section class="results-section">
+    <h2>Your Transcription</h2>
+
+    <div class="result-card">
+        <p id="transcription">
+            Your transcribed audio will appear here...
+        </p>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <h3>NaijaVoice <span>AI.</span></h3>
+
+    <p>
+        Speak naturally. We'll handle the rest.
+    </p>
+
+    <div class="footer-line"></div>
+
+    <small>
+        © 2026 NaijaVoice AI. All rights reserved.
+    </small>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
